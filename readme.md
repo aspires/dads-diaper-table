@@ -1,33 +1,17 @@
-# Hi!
+# Dad's Diaper Table
 
-![screenshot](https://raw.github.com/jlord/hack-spots/gh-pages/img/hackspotsss.png)
+This is the code for a website that shows the spots myself, my friends, and other cool people have found that have changing stations in their men's restrooms. Built on [Sheetsee.js](https://github.com/jlord/sheetsee.js), Google Docs, and GitHub Pages.
 
-This is the code for a website that shows the spots myself, my friends (or Twitter friends) have found to be excelent hacking spots around the whole wide world.
+# The Problem
 
-### Fork -n- Go!
+I didn't realize this until my friends started having kids (I'm not a dad), but it's common for public places to only provide a changing table in the women's room. If you're a single dad, or just a dad who wants to change a diaper, you're out of luck. According to articles [here](http://www.mommyish.com/2011/05/18/changing-tables-in-womens-restrooms-how-are-dads-supposed-to-co-parent/), [here](http://blogs.babycenter.com/life_and_home/mens-rooms-why-no-baby-changing-stations/), [here](http://www.nytimes.com/2006/02/05/fashion/sundaystyles/25DIAPERS.html?pagewanted=all&_r=0), and many other problems, it's a chronic problem.
 
-In a bit I'll do some more refining (and documentation) - but here's a fun fact:
+# Adding Data
 
-This repo only has a **gh-pages** branch, which means as soon as you **fork** it, you have a hosted and live version of it yourself! 
+Go to [this Google form](https://docs.google.com/forms/d/1G7t72PPqLAkzXb6IKm54iMcAwtwUXmqXWvAmKuy8OB8/viewform) to add data. You can see the submitted forms in [this Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0Aqf1IOvs1eNMdENHY0FiZllkYXB6cXRRSmpnSWp3Smc&usp=sharing). If you see an error, file an issue in this repository.
 
-Next, create a spreadsheet with the same column headers as [the original](https://docs.google.com/spreadsheet/ccc?key=0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c#gid=0).
+# Thank Yous
 
-Click on the `index.html` file, click edit and change **line 118** (or thereabouts) it looks like: 
+Jessica Lord (@jlord on the GitHubs) did all of the heavy lifting in this one. She not only wrote [Sheetsee.js](https://github.com/jlord/sheetsee.js), but she wrote the demo [application](http://jlord.github.io/hack-spots/) that I borrowed. The design, functionality, and wizardry are her work.
 
-```javascript
-    document.addEventListener('DOMContentLoaded', function() {
-	  	var gData
-	  	var URL = "0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c"
-			Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } ) 
-    }) 
-```
-
-Replace the existing spreadsheet URL key with your spreadsheet's key. You'll find that by clicking (in Google Spreadsheets) File > Publish to the Web > Start Publishing, it will then display the key in a window. ![get key](https://raw.github.com/jllord/sheetsee-cache/master/img/key.png)
-
-Commit those changes and **LIKE WOAH** you now have a version of this website hooked to a spreadsheet that you can distrubute however you'd like.
-
-You can find your version at **yourGitHubName.github.io/theReposName** (in this case /hack-spots).
-
-## But How?
-
-A Google Spreadsheet holds all the data and it is connected to this website using the goodies in [sheetsee.js](http://www.github.com/jlord/sheetsee.js). Everytime you visit the website, you'll have the most up to date data that has been entered into the spreadsheet. 
+Sara Pyle (@sarapyle on the GitHubs) was the friend who first pointed this problem (among many other similar dillemas) out to me.
