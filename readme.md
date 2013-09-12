@@ -4,7 +4,7 @@ This is the code for a website that shows the spots myself, my friends, and othe
 
 # The Problem
 
-I didn't realize this until my friends started having kids (I'm not a dad), but it's common for public places to only provide a changing table in the women's room. If you're a single dad, or just a dad who wants to change a diaper, you're out of luck. According to articles [here](http://www.mommyish.com/2011/05/18/changing-tables-in-womens-restrooms-how-are-dads-supposed-to-co-parent/), [here](http://blogs.babycenter.com/life_and_home/mens-rooms-why-no-baby-changing-stations/), [here](http://www.nytimes.com/2006/02/05/fashion/sundaystyles/25DIAPERS.html?pagewanted=all&_r=0), and many other problems, it's a chronic problem.
+I didn't realize this until my friends started having kids (I'm not a dad), but it's common for public places to only provide a changing table in the women's room. If you're a single dad, or just a dad who wants to change a diaper, you're out of luck. According to articles [here](http://www.mommyish.com/2011/05/18/changing-tables-in-womens-restrooms-how-are-dads-supposed-to-co-parent/), [here](http://blogs.babycenter.com/life_and_home/mens-rooms-why-no-baby-changing-stations/), [here](http://www.nytimes.com/2006/02/05/fashion/sundaystyles/25DIAPERS.html?pagewanted=all&_r=0), and many other places, it's a chronic problem.
 
 # Adding Data
 
